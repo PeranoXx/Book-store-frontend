@@ -1,35 +1,13 @@
-# book-store-front
+# Book Store Front
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue.js web application for book store.
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+To run this app, follow these basic steps:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Clone the repository to your local machine using the command `https://github.com/PeranoXx/Book-store-frontend.git`.
+2. Navigate to the project directory using the command `cd Book-store-frontend`.
+3. Install the project dependencies by running `npm install`.
+4. create .env file and add `VITE_API_URL='http://127.0.0.1:8000/api/v1'` (Laravel api endpoint)
+4. Run the app using `npm run dev`
